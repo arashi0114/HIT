@@ -78,7 +78,7 @@ mkdir external
 cd external 
 git clone https://github.com/neuralbodies/leap.git
 cd leap
-python setup.py build_ext --inplace
+python setup.py build_ext --inplace #主要用于在开发过程中构建并调pip install -e .试扩展模块（如 C 扩展）
 pip install -e .
 ```
 
